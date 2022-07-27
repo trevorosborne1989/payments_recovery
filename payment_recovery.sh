@@ -1,10 +1,8 @@
-# Warrant Recovery
-# This shell script is meant to be run from Control-M at 7:15am Mon-Fri. 
-# This app calls a number of stored procedures which update the AWACS and
-# CCUBS databases with the warrant status return file records from SABHRS
+# Payments Recovery
+# Shell script to schedule application 
 
 
-WORKING_DIR=/data/project/batch/SFSLBATCH/MTPROD/sfslin/python/warrant_recovery
+WORKING_DIR=/****mydirectory***/python/payments_recovery
 VENV=$WORKING_DIR/venv/bin/activate
 
 export ORACLE_HOME=/data/oracle/app/oracle/product/12.1.0/client_2
